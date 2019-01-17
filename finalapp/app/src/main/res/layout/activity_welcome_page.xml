@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomePage"
+    tools:layout_editor_absoluteY="50dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="146dp"
+        android:layout_height="87dp"
+        android:text="SHOPPER"
+        android:onClick="xyz"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="148dp"
+        android:layout_height="87dp"
+        android:text="NEGOTIATOR"
+        android:onClick="abc"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="153dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:text="WELCOME TO THE BARGAINING APP!"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:text="SIGN UP AS-"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="195dp"
+        android:layout_height="31dp"
+        android:text="Already an user? Login below-"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:onClick="pqr"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+</android.support.constraint.ConstraintLayout>
